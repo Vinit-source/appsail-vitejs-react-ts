@@ -1,13 +1,8 @@
 {
-	"command": "node ./server/index.js",
-	"buildPath": "/Users/catalyst-solutions/Documents/appsail/build",
-	"stack": "node16",
+	"command": "echo Please specify the start-up command in the app-config.json file under the key command for AppSail $X_ZC_RESOURCE_NAME",
+	"build_path": "D:\\Media Labs\\Catalyst demo\\appsail-vitejs-react-ts\\build",
+	"stack": "node20",
 	"env_variables": {},
 	"memory": 256,
-	"scripts": {
-		"preserve":"cd client && npm run build && cd .. && cp -r server build",
-		"postserve": "rm -r build/*",
-        "predeploy":"cd client && npm run build && cd .. && cp -r server build",
-		"postdeploy": "rm -r build/*"
-	}
+	"scripts": {}
 }

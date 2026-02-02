@@ -3,6 +3,10 @@
     {
       "source": "/Users/catalyst-solutions/Documents/appsail",
       "name": "AppSail"
+    },
+    {
+      "source": ".",
+      "name": "CrosswordPrototype"
     }
   ]
 }
