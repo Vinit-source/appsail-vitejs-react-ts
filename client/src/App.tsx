@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { fetchPuzzleFromZoho } from './mockData';
-import { PuzzleData, GameState, GridCell, Clue } from './types';
+import { PuzzleData, GameState, Clue } from './types';
 import CrosswordGrid from './components/CrosswordGrid';
 import ClueList from './components/ClueList';
 import Header from './components/Header';
@@ -97,7 +97,7 @@ const App: React.FC = () => {
   const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
     if (!puzzle) return;
 
-    const { key, shiftKey } = e;
+    const { key, } = e;
     const { selectedRow, selectedCol, direction, grid } = gameState;
 
     // Navigation
