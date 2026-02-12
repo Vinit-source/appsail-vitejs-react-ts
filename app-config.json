@@ -1,6 +1,6 @@
 {
-	"command": "echo Please specify the start-up command in the app-config.json file under the key command for AppSail $X_ZC_RESOURCE_NAME",
-	"build_path": "D:\\Media Labs\\Catalyst demo\\appsail-vitejs-react-ts\\build",
+	"command": "node server/index.js",
+	"build_path": "build",
 	"stack": "node20",
 	"env_variables": {},
 	"memory": 256,
