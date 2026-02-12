@@ -1,8 +1,8 @@
 {
   "appsail": [
     {
-      "source": "/Users/catalyst-solutions/Documents/appsail",
-      "name": "AppSail"
+      "source": ".",
+      "name": "CrosswordSailApp"
     }
   ]
 }
